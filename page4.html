@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fgrhthth Restaurant - About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        h1, h2, h3 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1576866209837-5f1a5d1a69d5');
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+        }
+        .story {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: #262626;
+            border-radius: 10px;
+        }
+        .team-member {
+            flex: 1 1 45%;
+            margin: 10px;
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            .team {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>fgrhthth Restaurant</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Our Story</h2>
+            <p>Passion for food, dedication to quality.</p>
+        </section>
+        <section class="story">
+            <h2>Who We Are</h2>
+            <p>fgrhthth is a beloved restaurant in the heart of the city, known for its eclectic menu and warm hospitality. Our journey began with a simple idea: to create a space where food lovers could gather and enjoy exquisite dishes in a welcoming environment.</p>
+            <p>Over the years, we have grown and evolved, but our mission remains unchanged. We strive to innovate and delight our guests with every meal, ensuring that every visit is an unforgettable experience.</p>
+        </section>
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="Chef">
+                <h3>Chef John Doe</h3>
+                <p>Chef John is the heart and soul of our kitchen, bringing creativity and passion to every dish.</p>
+            </div>
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d" alt="Manager">
+                <h3>Manager Jane Smith</h3>
+                <p>Jane ensures that every guest feels at home, overseeing the dining room with grace and professionalism.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 fgrhthth Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
