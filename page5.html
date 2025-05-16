@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fgrhthth Restaurant - Reservations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        h1, h2, h3 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4');
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+        }
+        .reservation-info {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+        }
+        .reservation-form {
+            background-color: #262626;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .reservation-form input, .reservation-form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        .reservation-form button {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>fgrhthth Restaurant</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Make a Reservation</h2>
+            <p>Secure your table at fgrhthth Restaurant.</p>
+        </section>
+        <section class="reservation-info">
+            <h2>Reservation Details</h2>
+            <p>Book your table in advance to ensure an amazing dining experience. Our staff is ready to welcome you with open arms and a warm smile. Please fill out the form below to secure your reservation.</p>
+        </section>
+        <section class="reservation-form">
+            <h2>Reservation Form</h2>
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="date" name="date" required>
+                <input type="time" name="time" required>
+                <select name="guests" required>
+                    <option value="">Number of Guests</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <button type="submit">Reserve Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 fgrhthth Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
