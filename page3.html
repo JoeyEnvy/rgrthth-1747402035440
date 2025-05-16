@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fgrhthth Restaurant - Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        h1, h2, h3 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1555992336-03a23c67c9d0');
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+        }
+        .menu-list {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #333333;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery img {
+            margin: 10px;
+            max-width: 48%;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            .gallery img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>fgrhthth Restaurant</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Our Exquisite Menu</h2>
+            <p>Discover a world of flavors and culinary delights.</p>
+        </section>
+        <section class="menu-list">
+            <h2>Featured Dishes</h2>
+            <div class="menu-item">
+                <span>Grilled Salmon with Asparagus</span>
+                <span>$25</span>
+            </div>
+            <div class="menu-item">
+                <span>Truffle Risotto</span>
+                <span>$22</span>
+            </div>
+            <div class="menu-item">
+                <span>Pan-Seared Duck Breast</span>
+                <span>$30</span>
+            </div>
+            <div class="menu-item">
+                <span>Chocolate Lava Cake</span>
+                <span>$10</span>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Delicious Dish">
+            <img src="https://images.unsplash.com/photo-1528731708534-816fe59f90ef" alt="Fine Dining">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 fgrhthth Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
