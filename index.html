@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fgrhthth Restaurant - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        h1, h2, h3 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1598514983551-e2a1f3aee167');
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+        }
+        .about {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: #262626;
+            border-radius: 10px;
+        }
+        .service-item {
+            flex: 1 1 45%;
+            margin: 10px;
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .testimonials {
+            background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .contact {
+            text-align: center;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            .services {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>fgrhthth Restaurant</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Welcome to fgrhthth</h2>
+            <p>Your culinary adventure starts here.</p>
+        </section>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>fgrhthth is a modern restaurant that combines the essence of traditional culinary techniques with contemporary flavors. We cater to food enthusiasts who appreciate quality dining experiences and innovative dishes.</p>
+            <p>Our mission is to deliver exceptional service and create a dining atmosphere that makes every visit a memorable one. We are passionate about food and committed to providing a unique experience for each guest.</p>
+            <ul>
+                <li>Exquisite Cuisine</li>
+                <li>Friendly Atmosphere</li>
+                <li>Innovative Dishes</li>
+                <li>Exceptional Service</li>
+            </ul>
+        </section>
+        <section class="services">
+            <div class="service-item">
+                <i class="fas fa-utensils fa-2x"></i>
+                <h3>Gourmet Meals</h3>
+                <p>Experience dishes crafted with the finest ingredients and attention to detail.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-wine-glass-alt fa-2x"></i>
+                <h3>Fine Drinks</h3>
+                <p>Our selection of wines and cocktails is curated to complement our menu perfectly.</p>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <blockquote>"The best dining experience I've ever had! The food was divine and the service impeccable!"</blockquote>
+            <p>- Food Critic</p>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>For reservations and inquiries, please call us or fill out the contact form on our contact page.</p>
+            <p><i class="fas fa-phone-alt"></i> +123 456 7890</p>
+            <p><i class="fas fa-envelope"></i> info@fgrhthth.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 fgrhthth Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
